@@ -42,8 +42,7 @@
     "pretest": "npm run lint",
     "test": "jest --passWithNoTests",
     "test:e2e": "make -f e2e/Makefile",
-    "lint": "eslint .",
-    "prepare": "husky install"
+    "lint": "eslint ."
   },
   "lint-staged": {
     "*.ts": [
